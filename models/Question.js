@@ -39,7 +39,7 @@ return new Promise(function(resolve){
   }
 
   // FIXME: Implement async / await
-//  async static Print(id){
+  static async Print(id){
     const question =  await Question.Find(id)
 
     console.log("\n")
