@@ -12,7 +12,7 @@ class Question {
         const questions = Question._All
         console.log("...Questions Loaded")
 
-        resolve([{id: 1, content: "Question 1"}])
+        resolve(questions)
       }, 1500)
     })
   }
