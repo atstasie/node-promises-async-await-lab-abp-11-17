@@ -33,8 +33,7 @@ return new Promise(function(resolve){
       setTimeout(function(){
         const question = Question._All[id-1] // Do Not Edit
         console.log(`...Question ${id} Loaded`) // Do Not Edit
-        resolve([{id: 1, content: "Question 1"}])
-        return question
+        resolve(questions)
       }, 1500)
     })
   }
